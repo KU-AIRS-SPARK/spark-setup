@@ -6,6 +6,7 @@ if ! command -v nvidia-smi &> /dev/null; then
     echo "Nvidia drivers are not installed! Please install them and try again.";
     exit 1;
 fi
+sudo apt install libvulkan1
 
 wget https://github.com/lgsvl/simulator/releases/download/2020.06/lgsvlsimulator-linux64-2020.06.zip
 unzip lgsvlsimulator-linux64-2020.06.zip
