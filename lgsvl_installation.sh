@@ -8,6 +8,8 @@ if ! command -v nvidia-smi &> /dev/null; then
 fi
 sudo apt install libvulkan1
 
+mkdir ~/spark
+cd ~/spark
 wget https://github.com/lgsvl/simulator/releases/download/2020.06/lgsvlsimulator-linux64-2020.06.zip
 unzip lgsvlsimulator-linux64-2020.06.zip
 mv lgsvlsimulator-linux64-2020.06 lgsvlsimulator
