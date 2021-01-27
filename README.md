@@ -21,7 +21,7 @@ Vulkan libraries by running: `sudo apt install libvulkan1`
 chmod +x ./spark_setup.sh
 ./spark_setup.sh
 ```
-3. Run to start LGSVL, Pycharm and LGSVL Bridge
+3. Go to ~/spark(a spark folder in your home directory). Run to start LGSVL, Pycharm and LGSVL Bridge
 ```shell
 chmod +x ./initDev.sh
 ./initDev.sh
