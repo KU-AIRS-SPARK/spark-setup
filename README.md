@@ -22,8 +22,7 @@ Vulkan libraries by running: `sudo apt install libvulkan1`
 chmod +x ./spark_setup.sh
 ./spark_setup.sh
 ```
-3. Run to start LGSVL, Pycharm and LGSVL Bridge (or you can go Properties of initDev.sh --> Permissions --> Select "Allow this file to run as a program" & In terminal, running only second line is enough since we've already done the first line manually.)
-
+3. Go to ~/spark(a spark folder in your home directory). Run to start LGSVL, Pycharm and LGSVL Bridge (or you can go Properties of initDev.sh --> Permissions --> Select "Allow this file to run as a program" & In terminal, running only second line is enough since we've already done the first line manually.)
 ```shell
 chmod +x ./initDev.sh
 ./initDev.sh
