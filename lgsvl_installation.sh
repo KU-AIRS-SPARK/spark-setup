@@ -1,4 +1,4 @@
-ROS_DISTRO=dashing
+ROS_DISTRO=foxy
 
 sudo apt-get install wget
 sudo apt-get install unzip
